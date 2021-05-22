@@ -6,5 +6,5 @@ import kodlamaio.northwind.entities.concretes.Product;
 
 public interface ProductDao extends JpaRepository<Product, Integer> {
 	// CRUD böylelikle hazır oldu.
-	// Product QEntity ile işaretlenmiş olmalı, integer olan ise id nin veri tipi
+	// Product @Entity ile işaretlenmiş olmalı, integer olan ise id nin veri tipi
 }
